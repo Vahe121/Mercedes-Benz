@@ -1,0 +1,123 @@
+@media screen and (max-width:1450px){
+    .photos{
+        padding: 0 100px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:1250px){
+    .photos{
+        padding: 0 50px;
+        column-gap: 50px;
+    }
+}
+@media screen and (max-width:1050px){
+    .photos{
+        padding: 0;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:950px){
+    .photo_anim{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .photo_anim{
+        justify-content: center;
+    }
+    .photo_box1{
+        height: 700px;
+    }
+    .photo_box2{
+        margin: 0;
+        height: 400px;
+    }
+    .photo_box3{
+        height: 350px;
+    }
+    .photo_box4{
+        height: 400px;
+    }
+    .photo_box5{
+        height: 700px;
+    }
+    .photos{
+        column-gap: 0;
+        gap: 25px;
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width:900px){
+    .header_anim ul{
+        width: 90%;
+    }
+    .home_sec2 video{
+        height: 50%;
+    }
+}
+@media screen and (max-width:700px){
+    .header_media{
+        display: flex;
+    }
+    .header_anim{
+        display: none;
+    }
+    .home_sec1{
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    .home_box button{
+        margin: auto;
+    }
+    .home_sec2 video{
+        object-fit:scale-down;
+    }
+    .home_sec2{
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: auto;
+    }
+    .home_box2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width:520px){
+    .photo_box{
+        width: 100%;
+        padding: 0 5px;
+    }
+    .img_scale{
+        background-position: center;
+    }
+    .img4_scale{
+        background-position:left;
+    }
+    .stop_box{
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .stop_h1{
+        width: 100%;
+        padding: 0 5px;
+        font-size: 36px;
+    }
+    .stop_h1 > span{
+        text-align: center;
+        justify-content: center;
+    }
+    .foot_h1{
+        width: 100%;
+        padding: 0 5px;
+    }
+    .blog{
+        width: 100%;
+        padding: 0 5px;
+        justify-content: space-between;
+        font-size: 29px;
+    }
+}
